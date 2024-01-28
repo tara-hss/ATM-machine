@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://www.cass.city.ac.uk/__data/assets/image/0017/507050/BBM-2-500x333.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+main {
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+
+}
+.account {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(215, 217, 226, 0.7);
+    max-width: 400px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+.amount {
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background-color: #f0eeea;
+    color: blue;
+    font-size: 14px;
+    width: 100%;
+    border: 1%;
+    border-color: rgb(245, 245, 245);
+    margin: 0 0 15px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #2ce407;
+    width: 100%;
+    border-width: 3px;
+    border-right: 3px solid rgba(26, 62, 102, 0.548);
+    border-bottom: 3px solid rgba(26, 62, 102, 0.548);
+    border-top: rgb(245, 245, 245);
+    border-left: rgb(245, 245, 245);
+    padding: 15px;  
+    color: #ffffff;
+    text-align: right;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 7.5px;
+   
+}
+button:hover, button:active {
+    background-color: #b80f1d;
+    
+}
+
+
+.withdraw {
+    margin-top: 5px;
+}
+main {
+    margin-top: 100px;
+    
+
+}
+
+.title {
+    font-size: larger;
+    margin-top: 5px;
+    margin: auto;
+    
+
+}
+
+.title, .balance {
+    font-weight: bold;
+}
